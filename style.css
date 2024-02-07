@@ -1,0 +1,86 @@
+body{
+  background-color: Burlywood;
+  Color: SaddleBrown; 
+  margin: 2rem;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  text-align:center;
+  animation: colora 10s ease-in-out infinite;}
+}
+
+/*dog*/
+.dog {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f436.png) 36 36, auto;
+}
+
+/*mug*/
+.mug {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f37a.png) 36 36, auto;
+}
+
+/*paws*/
+.paws {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f43e.png) 36 36, auto;
+}
+
+
+section{
+  display: flex;
+  padding: 2rem;
+}
+
+figure{
+  display:flex;
+  align-self: flex-start;
+  position:sticky;
+  top: 1rem;
+}
+
+img{
+  width: 480px;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/*Color changing animation*/
+@keyframes colora {
+  0% {color:#AFEEEE}
+  20%{color:#4682B4}
+  40%{color:#008080}
+  60%{color:#4169E1}
+  80%{color:#000080}
+  100%{color:#AFEEEE}
+  
+}
+
+button{
+  background-color:SaddleBrown;
+  color:Burlywood;
+  padding: 10px;
+}
